@@ -4,6 +4,8 @@ import os
 # from urllib3 import make_headers
 
 os.system("apt install unzip")
+os.system("apt install firefox")
+os.system("apt install chromium")
 
 BOT_API = "5243536300:AAFQrJVeFQKChsh8QEbwA-pZ4k2I2gOkLAU"
 def downloader(update: Update, context: CallbackContext):
